@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.trittium2'
 COIN_DAEMON='trittiumd'
 COIN_CLI='trittium-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/Trittium/trittium/releases/download/2.0.1/trittium-2.0.1-ubuntu-daemon.tgz'
+COIN_TGZ='https://github.com/Trittium/trittium/releases/download/2.0.2/trittium-2.0.2-ubuntu-daemon.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Trittium'
 COIN_PORT=30001
@@ -120,6 +120,28 @@ maxconnections=256
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
+addnode=83.137.50.148 
+addnode=37.24.156.16 
+addnode=148.251.203.197 
+addnode=172.58.43.245 
+addnode=88.130.61.158 
+addnode=188.233.30.99 
+addnode=185.54.7.63 
+addnode=104.156.254.81 
+addnode=109.185.137.109 
+addnode=172.110.66.196 
+addnode=83.169.216.238 
+addnode=78.139.69.111 
+addnode=185.96.252.252 
+addnode=193.93.13.28 
+addnode=91.97.55.246 
+addnode=83.137.50.148 
+addnode=148.251.203.197 
+addnode=138.68.30.187 
+addnode=45.77.66.148 
+addnode=173.212.226.156 
+addnode=144.217.126.80 
+addnode=172.245.241.119
 EOF
 }
 
